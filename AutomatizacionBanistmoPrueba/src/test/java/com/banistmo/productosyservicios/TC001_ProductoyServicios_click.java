@@ -1,22 +1,22 @@
 package com.banistmo.productosyservicios;
 
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;                       
+import org.openqa.selenium.WebDriver;                
+import org.openqa.selenium.chrome.ChromeDriver;      
+import org.testng.Reporter;                          
+import org.testng.annotations.AfterTest;             
+import org.testng.annotations.BeforeTest;            
+import org.testng.annotations.Test;                       
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Reporter;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
-public class TC001_ProductoyServicios_click {
+public class TC001_ProductoyServicios_click {         //Creación de la clase de tipo Test NG
  
-  @BeforeTest
+  @BeforeTest                                         // Metodo
   public void beforeTest() {
 	   }
-
-  @Test
+  
+@Test
   public void TC001_ProductosyServicios() {
 	  
 	  System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver.exe");
@@ -34,15 +34,13 @@ public class TC001_ProductoyServicios_click {
       //Paso 2 - Dar click sobre la opción de menu Productos y Servicios
 	  Reporter.log("Abrir la pagina web \"Banistmo\" web page");
 	  driver.findElement(By.xpath("//button[contains(text(), 'Productos & servicios')]")).click();
-	  driver.findElement(By.xpath("//span[contains(text(),'Préstamos de autos')]")).click();
+	  
+	  //Paso 3 - Dar click sobre la opción Préstamos de autos
+	  driver.findElement(By.xpath("//span[text()='Préstamos de autos']")).click();
+	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	  driver.findElement(By.xpath("//h3[contains(@class, 'Préstamos de Autos Regulares')]//span[normalize-space(text())='Descubre Más']")).click();
 
-	
-	
-	  //driver.findElement(By.xpath("//div[.//h3[text()='Préstamos de Automóviles Regulares']]"));
-	  //driver.findElement(By.xpath("//span[contains(text(),'Descrubre más')]")).click();
-	  
-	  
-	  //driver.findElement(By.xpath("//h3[@class='Préstamos de Automóviles Regulares']"));
+	 
 	
   }
   

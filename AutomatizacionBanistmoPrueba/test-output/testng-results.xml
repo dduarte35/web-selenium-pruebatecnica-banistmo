@@ -4,37 +4,42 @@
     <line>
       <![CDATA[Abrir la pagina web "Banistmo" web page]]>
     </line>
+    <line>
+      <![CDATA[Abrir la pagina web "Banistmo" web page]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-10-27T22:15:58 EST" name="Default suite" finished-at="2026-10-27T22:16:40 EST" duration-ms="41701">
+  <suite started-at="2026-10-29T20:46:44 EST" name="Default suite" finished-at="2026-10-29T20:47:13 EST" duration-ms="28712">
     <groups>
     </groups>
-    <test started-at="2026-10-27T22:15:58 EST" name="Default test" finished-at="2026-10-27T22:16:40 EST" duration-ms="41701">
+    <test started-at="2026-10-29T20:46:44 EST" name="Default test" finished-at="2026-10-29T20:47:13 EST" duration-ms="28712">
       <class name="com.banistmo.productosyservicios.TC001_ProductoyServicios_click">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.banistmo.productosyservicios.TC001_ProductoyServicios_click@74f0ea28]" started-at="2026-10-27T22:15:58 EST" name="beforeTest" finished-at="2026-10-27T22:15:58 EST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.banistmo.productosyservicios.TC001_ProductoyServicios_click@74f0ea28]" started-at="2026-10-29T20:46:44 EST" name="beforeTest" finished-at="2026-10-29T20:46:44 EST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="TC001_ProductosyServicios()[pri:0, instance:com.banistmo.productosyservicios.TC001_ProductoyServicios_click@74f0ea28]" started-at="2026-10-27T22:15:58 EST" name="TC001_ProductosyServicios" finished-at="2026-10-27T22:16:40 EST" duration-ms="41617" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="TC001_ProductosyServicios()[pri:0, instance:com.banistmo.productosyservicios.TC001_ProductoyServicios_click@74f0ea28]" started-at="2026-10-29T20:46:44 EST" name="TC001_ProductosyServicios" finished-at="2026-10-29T20:47:13 EST" duration-ms="28638" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(@class, 'Préstamos de Autos Regulares')]//span[normalize-space(text())='Descubre Más']"}
   (Session info: chrome=156.0.8078.48)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DADP', ip: '192.168.100.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.48, chrome: {chromedriverVersion: 155.0.8059.85 (0e66b94549a8..., userDataDir: C:\Users\ariat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57165}, goog:processID: 16900, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c2b5d92d251deff27be0d347e8899c5]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.48, chrome: {chromedriverVersion: 155.0.8059.85 (0e66b94549a8..., userDataDir: C:\Users\ariat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64865}, goog:processID: 21408, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb3445b3f5fa87bbed0841cbdf816bd5
+*** Element info: {Using=xpath, value=//h3[contains(@class, 'Préstamos de Autos Regulares')]//span[normalize-space(text())='Descubre Más']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(@class, 'Préstamos de Autos Regulares')]//span[normalize-space(text())='Descubre Más']"}
   (Session info: chrome=156.0.8078.48)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DADP', ip: '192.168.100.31', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.48, chrome: {chromedriverVersion: 155.0.8059.85 (0e66b94549a8..., userDataDir: C:\Users\ariat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57165}, goog:processID: 16900, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c2b5d92d251deff27be0d347e8899c5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.48, chrome: {chromedriverVersion: 155.0.8059.85 (0e66b94549a8..., userDataDir: C:\Users\ariat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64865}, goog:processID: 21408, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb3445b3f5fa87bbed0841cbdf816bd5
+*** Element info: {Using=xpath, value=//h3[contains(@class, 'Préstamos de Autos Regulares')]//span[normalize-space(text())='Descubre Más']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -44,9 +49,11 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.banistmo.productosyservicios.TC001_ProductoyServicios_click.TC001_ProductosyServicios(TC001_ProductoyServicios_click.java:28)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.banistmo.productosyservicios.TC001_ProductoyServicios_click.TC001_ProductosyServicios(TC001_ProductoyServicios_click.java:41)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -75,14 +82,17 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[Abrir la pagina web "Banistmo" web page]]>
+            </line>
             <line>
               <![CDATA[Abrir la pagina web "Banistmo" web page]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC001_ProductosyServicios -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.banistmo.productosyservicios.TC001_ProductoyServicios_click@74f0ea28]" started-at="2026-10-27T22:16:40 EST" name="afterTest" finished-at="2026-10-27T22:16:40 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.banistmo.productosyservicios.TC001_ProductoyServicios_click@74f0ea28]" started-at="2026-10-29T20:47:13 EST" name="afterTest" finished-at="2026-10-29T20:47:13 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
